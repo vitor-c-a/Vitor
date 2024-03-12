@@ -1,0 +1,207 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+
+body{
+    background:rgb(26, 0, 51);
+    color: #fff;
+    width: 100vw; /* viewport width*/
+    height: 295vh;
+    overflow-x: hidden; /* define que não terá barra de rolagem na horizontal*/
+}
+
+                    /*Parte de navegação*/
+header{
+ position: sticky;
+ top: 0;
+ padding-top: 20px;
+}
+
+nav{
+    width: 100%;
+    height: 80px;
+    padding-left: 280px;
+
+
+}
+nav ul{
+    width: 100%;
+    display: flex;
+    gap: 50px;
+    padding: 25px 30px;
+
+    
+}
+
+nav ul li{
+    list-style: none;
+    display: inline-block;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+
+                /*Parte da esquerda da página*/
+.sobre{  /*BLOCO CONTENDO LADO ESQUERDO E DIREITO*/
+    margin-top: 50px;
+    padding-left: 310px;
+    
+}
+
+.vitor_araujo{
+    width: 310px;
+    position:fixed;
+}
+
+
+.barra_vazia{
+    width: 290px;
+    height: 9px;
+    border-radius: 10px;
+    background-color: #ccc;
+}
+
+.barra_html{
+height: 100%;
+width: 60%;
+border-radius: 10px;
+background-color: #DB00FF;
+}
+
+.barra_css{
+    height: 100%;
+    width: 30%;
+    border-radius: 10px;
+    background-color: #DB00FF;
+}
+
+.barra_javascript{
+    height: 100%;
+    width: 5%;
+    border-radius: 10px;
+    background-color: #DB00FF;
+}
+
+.barra_figma{
+    height: 100%;
+    width: 30%;
+    border-radius: 10px;
+    background-color: #DB00FF;
+}
+
+.barra_excel{
+    height: 100%;
+    width: 40%;
+    border-radius: 10px;
+    background-color: #DB00FF;
+}
+
+
+h3{
+    font-weight: 300;
+    font-size: 17px;
+}
+
+.vitor_araujo h1{
+    font-size: 40px;
+}
+
+.vitor_araujo h2{
+    font-size: 20px;
+}
+
+                /*Parte da direira da página*/
+.sobre_conteudo{
+    width: 651px;
+    position: relative;
+    left: 640px;
+}
+
+.sobre_titulo{
+    width: 300px;
+    font-size: 30px;
+    border-bottom: 2px solid #fff;
+    margin-bottom: 15px;
+}
+
+
+.sobre_paragrafo{
+    text-align: justify;
+}
+
+.sobre_conteudo h2{
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.formacao{
+    margin-top: 80px ;
+}
+ul{
+    padding-left: 20px;
+    padding-bottom: 10px;
+}
+
+img{
+    width: 165px;
+    height: 78px;
+}
+
+.projeto{
+    display: flex;
+    gap: 50px;
+    width: 700px;
+}
+
+.projeto p{
+    
+}
+
+/*Área do Footer, rodapé*/
+
+.footer{
+    display: block;
+    
+    position: fixed;
+    bottom: 70px;
+    left: 310px;
+
+}
+
+.gitlink{
+    width: 50px;
+    height: 50px;   
+}
+
+footer h3{
+position:fixed ;
+left: 308px;
+bottom: 220px;
+font-size: 20px;
+font-weight: 500;
+}
+
+.contato_links{
+    margin: 20px;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+
+/*Layout responsivo - quando a tela for menor que 700px, fazer com que os elemntos fiquem empilhados um emcima do outro*/
+
+@media screen and (max-width: 700px) {
+    
+}
